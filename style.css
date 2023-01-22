@@ -1,0 +1,123 @@
+body {
+    margin:0;   
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.sec1{
+    background-color:#06283D;
+      
+}
+
+
+
+.header{
+    display:flex;
+    justify-content: flex-end;
+    height: 55px;
+    background-color:#256D85;
+    padding: 0px 150px 0px 150px;
+
+}
+
+.left{
+    flex:1;
+    color:#f9faf8;
+    font-size: 28px;
+    font-weight: 600;
+    justify-content: flex-start;
+    align-self: center;
+
+}
+
+.right{
+    display:flex;
+    font-size:18px;
+    align-items:center;
+    gap: 15px;
+    color:#E5E7EB;
+}
+
+.head{
+    height: 185px;
+    display:flex;
+    padding: 100px 150px 100px 150px;
+    gap: 40px;
+    flex-grow:0;
+}
+
+.headleft{
+    flex:1; 
+    padding:0;
+    height: 215px;
+    
+
+}
+
+.headright{
+    flex:1 0 0;
+    height:215px; 
+    overflow: hidden; 
+}
+/* Moze i ovako slika  ^
+    background-image: url(img.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+img{
+ width:117%;
+   
+}
+    
+.heading{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: 1000;
+    margin:0px;
+   padding:0px; 
+}
+
+#head{
+    color:#f9faf8;
+    font-size: 18px;
+    color:#E5E7EB;
+    margin:0px;
+    padding:0px;
+    margin-top: 12px;
+}
+
+#signup{
+    color:#f9faf8;
+    background-color: #47B5FF;
+    margin-top:12px;
+    padding:4px;
+    margin-right:206px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.sec2{
+
+}
+
+.sec3{
+
+}
+
+.sec4{
+
+}
+
+
+.footer{
+    background-color:#16213E;
+
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
